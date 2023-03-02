@@ -1,0 +1,69 @@
+.portfolio__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 15px;
+}
+
+.portfolio__img {
+    border-radius: 10px;
+    max-width: 550px;
+    height: 300px;
+}
+
+.img__link {
+    border: 3px solid teal;
+    border-radius: 10px;
+}
+
+.img__link:hover {
+    border-radius: 10px;
+    border: 3px solid red;
+    box-shadow: 0px 0px 20px 5px red;
+}
+
+.coffee__title {
+    margin: auto;
+    width: 200px;
+    background-color: #e1761e;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+}
+
+.coffee__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 15px;
+}
+
+.namanganliklar__block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 15px;
+}
+
+.namanganliklar-img {
+    border-radius: 10px;
+    max-width: 500px;
+    height: 250px;
+}
+
+.namanganliklar-title{
+    margin: auto;
+    width: 200px;
+    background-color: #e1761e;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+}

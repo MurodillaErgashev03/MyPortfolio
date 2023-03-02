@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: #000;
+}
+
+body {
+  position: relative;
+  background-image: url(../img/2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 40px;
+}
+
+.header {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.header__img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.header__title {
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 20px;
+  color: gray;
+}
+
+.header__link-block {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.first__link {
+  background-color: white;
+  border: 1px solid red;
+  font-size: 22px;
+  color: #1223de;
+  padding: 10px 25px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.first__link:hover {
+  background-color: #cd2bcd;
+  color: white;
+}
+
+.second__link {
+  background-color: white;
+  border: 1px solid red;
+  font-size: 22px;
+  color: #1223de;
+  padding: 10px 25px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.second__link:hover {
+  background-color: #cd2bcd;
+  color: white;
+}
+
+.portfolio__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-top: 15px;
+}
+
+.portfolio__img {
+  border-radius: 10px;
+  max-width: 550px;
+  height: 300px;
+}
+
+.img__link {
+  border: 3px solid teal;
+  border-radius: 10px;
+}
+
+.img__link:hover {
+  border-radius: 10px;
+  border: 3px solid red;
+  box-shadow: 0px 0px 20px 5px red;
+}
+
+.coffee__title {
+  margin: auto;
+  width: 200px;
+  background-color: #e1761e;
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+}
+
+.coffee__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 15px;
+}
+
+.namanganliklar__block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 15px;
+}
+
+.namanganliklar-img {
+  border-radius: 10px;
+  max-width: 500px;
+  height: 250px;
+}
+
+.namanganliklar-title {
+  margin: auto;
+  width: 200px;
+  background-color: #e1761e;
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+}/*# sourceMappingURL=main.css.map */
